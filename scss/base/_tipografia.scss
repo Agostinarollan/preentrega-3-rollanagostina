@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: $color-texto-primario;
+    text-shadow: $color-texto-shadow;
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
+    font-family:"Heebo", sans-serif;
+}
+a,
+p{
+    color:$color-texto-primario;
+}
+h2 {
+    font-size: 40px;
+    padding: 10px;   
+}
+@media (min-width: 576px) {
+    h2{
+        font-size: 50px;
+    }
+}
+@media (min-width: 992px) {
+    h2{
+        font-size: 70px;
+    }
+}
