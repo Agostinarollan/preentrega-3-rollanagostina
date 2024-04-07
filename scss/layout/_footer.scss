@@ -2,41 +2,41 @@ footer{
     background-image: url(../assets/imag/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-footer h5{
-    color: $color-texto;
-    font-size: 10px;
-    justify-content: left;
-}
-footer p{
-    color: $color-texto;
-    font-size: 10px;
-    padding-left: 5px;
-}
-footer li{
-    list-style-type: none;
-}
-footer img{
-    width: 20px;
-    margin:5px;
-}
-@media (min-width: 768px) {
-    footer h5{
-        font-size: 15px;
+    h5{
+        color: $color-texto;
+        font-size: 10px;
+        justify-content: left;
     }
-
-}
-@media (min-width: 992px) {
-    footer h5{
-        font-size: 15px;
+    p{
+        color: $color-texto;
+        font-size: 10px;
+        padding-left: 5px;
     }
-}
-@media (min-width: 1200px) {
-    footer p{
-        font-size: 15px;
+    li{
+        list-style-type: none;
     }
-    footer img{
-        width: 30px;
+    img{
+        width: 20px;
         margin:5px;
+    }
+    @media (min-width: 768px) {
+        h5{
+            font-size: 15px;
+        }
+    
+    }
+    @media (min-width: 992px) {
+        h5{
+            font-size: 15px;
+        }
+    }
+    @media (min-width: 1200px) {
+        p{
+            font-size: 15px;
+        }
+        img{
+            width: 30px;
+            margin:5px;
+        }
     }
 }

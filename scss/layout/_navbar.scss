@@ -2,6 +2,21 @@ header{
     background-image: url(../assets/imag/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    @media (min-width: 576px) {
+        img{ 
+            width: 80px;
+        }
+    }
+    @media (min-width: 768px) {
+        img{ 
+            width: 100px;
+        }
+    }
+    @media (min-width: 992px) {
+        img{ 
+            width: 150px;
+        }
+    }
 }
 .navbar-expand-lg .navbar-nav{
     gap: 15px;
@@ -10,23 +25,5 @@ header{
 }
 .dropdown-menu{
     background-color:$bg-color-primario;
-
-}
-@media (min-width: 576px) {
-    header  img{ 
-        width: 80px;
-    }
-
-}
-@media (min-width: 768px) {
-    header  img{ 
-        width: 100px;
-    }
-
-}
-@media (min-width: 992px) {
-    header  img{ 
-        width: 150px;
-    }
 
 }

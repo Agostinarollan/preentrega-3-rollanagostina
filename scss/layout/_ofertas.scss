@@ -1,174 +1,167 @@
-.carrousel img{
-    height: 400px;
-    width: 2000px;
-}
-.carousel h5{
-    font-size: 30px;
-    color:$color-texto-primario;
-}
-.carousel p{
-    font-size: 15px;
-    color: $color-texto-primario;
-}
-@media (min-width: 576px) {
-    .carrousel img{
-        height: 500px;
+.carrousel{
+    img{
+        height: 400px;
+        width: 2000px;
     }
-    .carousel h5{
-        font-size: 40px;
-    }
-    .carousel p{
-        font-size: 20px;
-    }
-
-}
-@media (min-width: 768px) {
-    .carrousel img{
-        height: 600px;
-    }
-    .carousel h5{
-        font-size: 60px;
-    }
-    .carousel p{
+    .h5{
         font-size: 30px;
+        color:$color-texto-primario;
     }
-
+    p{
+        font-size: 15px;
+        color: $color-texto-primario;
+    }
+    @media (min-width: 576px) {
+        img{
+            height: 500px;
+        }
+        h5{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    @media (min-width: 768px) {
+        img{
+            height: 600px;
+        }
+        h5{
+            font-size: 60px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+    @media (min-width: 992px) {
+        img{
+            height: 600px;
+        }
+        h5{
+            font-size: 60px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+    @media (min-width: 1200px) {
+        img{
+            height: 800px;
+        }
+        h5{
+            font-size: 70px;
+        }
+        p{
+            font-size: 40px;
+        }
+    }
 }
-@media (min-width: 992px) {
-    .carrousel img{
-        height: 600px;
-    }
-    .carousel h5{
-        font-size: 60px;
-    }
-    .carousel p{
-        font-size: 30px;
-    }
-
-}
-@media (min-width: 1200px) {
-    .carrousel img{
-        height: 800px;
-    }
-    .carousel h5{
-        font-size: 70px;
-    }
-    .carousel p{
-        font-size: 40px;
-    }
-
-}
-
 .novedad{
     background-color:$bg-color-primario;
     padding: 10px;
-}
-.novedad p{
-    font-size: 15px;
-    text-align: justify;
-    line-height: 2em;
-}
-.novedad img{
-    width: 500px;
-    height: 600px;
-}
-@media (min-width: 576px) {
-    .novedad p{
+    p{
         font-size: 15px;
-    }
-
-}
-@media (min-width: 768px) {
-    .novedad p{
-        font-size: 15px;
-        text-align: left;
-        line-height: 1.5em;
-    }
-    .novedad img{
-        width: 300px;
-        height: 400px;
-    }
-}
-@media (min-width: 992px) {
-    .novedad p{
-        font-size: 20px;
-        text-align: left;
-        line-height: 1.5em;
-    }
-    .novedad img{
-        width: 300px;
-        height: 500px;
-    }
-}
-@media (min-width: 992px) {
-    .novedad p{
-        font-size: 20px;
-        text-align: left;
+        text-align: justify;
         line-height: 2em;
     }
-    .novedad img{
-        width: 600px;
-        height: 800px;
+    img{
+        width: 500px;
+        height: 600px;
+    }
+    @media (min-width: 576px) {
+        p{
+            font-size: 15px;
+        }
+    
+    }
+    @media (min-width: 768px) {
+        p{
+            font-size: 15px;
+            text-align: left;
+            line-height: 1.5em;
+        }
+        img{
+            width: 300px;
+            height: 400px;
+        }
+    }
+    @media (min-width: 992px) {
+        p{
+            font-size: 20px;
+            text-align: left;
+            line-height: 1.5em;
+        }
+        img{
+            width: 300px;
+            height: 500px;
+        }
+    }
+    @media (min-width: 992px) {
+        p{
+            font-size: 20px;
+            text-align: left;
+            line-height: 2em;
+        }
+        img{
+            width: 600px;
+            height: 800px;
+        }
     }
 }
 .ofertas{
     background-color: $bg-color-primario;
     margin-top: 10px;
     margin-bottom: 50px;
-}
-
-.ofertas img{
-    width: auto;
-    height: 400px;
-}
-.ofertas a{
-    background-color:$color-primario;
-    border-color:$color-secundario; 
-    font-weight: bold;
-    font-size: 15px;
-}
-.ofertas h6{
-    color:$color-texto-primario;
-    text-shadow: $color-texto-shadow;
-    font-size: 30px;
-}
-.ofertas p{
-    font-size: 25px;
-    font-weight: lighter;
-}
-@media (min-width: 576px) {
-    
-    .ofertas img{
-        width: auto;;
-        height: 400px;
-    }
-}
-@media (min-width: 770px) {
-    
-    .ofertas img{
+    img{
         width: auto;
         height: 400px;
     }
-    .ofertas h6{
-        font-size: 20px;
-    }
-    .ofertas p{
+    a{
+        background-color:$color-primario;
+        border-color:$color-secundario; 
+        font-weight: bold;
         font-size: 15px;
+    }
+    h6{
+        color:$color-texto-primario;
+        text-shadow: $color-texto-shadow;
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
         font-weight: lighter;
+    }
+    @media (min-width: 576px) {
+        img{
+            width: auto;;
+            height: 400px;
+        }
+    }
+    @media (min-width: 770px) { 
+        img{
+            width: auto;
+            height: 400px;
+        }
+        h6{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: lighter;
+        }
+    }
+    @media (min-width: 992px) {
+        img{
+            width: auto;
+            height: 400px;
+        }
+        h6{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: lighter;
+        }
     }
 }
 
-@media (min-width: 992px) {
-    
-    .ofertas img{
-        width: auto;
-        height: 400px;
-    }
-    .ofertas h6{
-        font-size: 20px;
-    }
-    .ofertas p{
-        font-size: 15px;
-        font-weight: lighter;
-    }
-}
