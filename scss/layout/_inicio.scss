@@ -1,3 +1,4 @@
+
 .carrousel-inicio{
     
     img{
@@ -44,12 +45,13 @@
 
 
 .incio-detalles{
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 20px;
+    margin-top: 10px;
     img{
-        width: 150px;
+        width: 100px;
         height: 200px;
     }
     @media (min-width: 770px) {
