@@ -29,10 +29,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 20px;
+    
     img{
         width: 100px;
         height: 100px;
         border-radius: 50px;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.2); 
+        }
     }
     @media (min-width: 770px) {
         img{
@@ -44,33 +49,38 @@
 }
 
 
-.incio-detalles{
-    width: auto;
+.inicio-detalles {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-around;
     margin-top: 10px;
-    img{
-        width: 100px;
+    img {
+        width: 180px;
         height: 200px;
-    }
-    @media (min-width: 770px) {
-        img{
-            width: 250px;
-            height: 400px;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.5); 
         }
+    } 
+
+    @media (min-width: 768px) {
+       img {
+        width: 250px;
+        height: 400px;
+       }
     }
     @media (min-width: 992px) {
-        img{
-            width:300px;
-            height: 500px;
+        img {
+         width: 310px;
+         height: 400px;
         }
-    }
-    @media (min-width: 1200px) {
-        img{
-            width:600px;
-            height: 600px;
+     }
+     @media (min-width: 1200px) {
+        img {
+         width: 300px;
+         height: 400px;
         }
-    }
+     }
 }
 
