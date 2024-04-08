@@ -47,7 +47,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer h5 {
+footer h3 {
   color: black;
   font-size: 10px;
   justify-content: left;
@@ -65,21 +65,21 @@ footer img {
   margin: 5px;
 }
 @media (min-width: 768px) {
-  footer h5 {
-    font-size: 15px;
+  footer h3 {
+    font-size: 10px;
   }
 }
 @media (min-width: 992px) {
-  footer h5 {
-    font-size: 15px;
+  footer h3 {
+    font-size: 10px;
   }
 }
 @media (min-width: 1200px) {
   footer p {
-    font-size: 15px;
+    font-size: 10px;
   }
   footer img {
-    width: 30px;
+    width: 20px;
     margin: 5px;
   }
 }
@@ -190,11 +190,11 @@ header {
 .contacto-informacion {
   margin-top: 20px;
 }
-.contacto-informacion h5 {
+.contacto-informacion h1 {
   font-size: 30px;
   margin-top: 20px;
 }
-.contacto-informacion h6 {
+.contacto-informacion h2 {
   font-size: 15px;
 }
 .contacto-informacion p {
@@ -208,10 +208,10 @@ header {
   border-radius: 10px 120px 10px 120px;
 }
 @media (min-width: 992px) {
-  .contacto-informacion h5 {
+  .contacto-informacion h1 {
     font-size: 50px;
   }
-  .contacto-informacion h6 {
+  .contacto-informacion h2 {
     font-size: 20px;
   }
   .contacto-informacion p {
@@ -221,11 +221,11 @@ header {
   }
 }
 @media (min-width: 1200px) {
-  .contacto-informacion h5 {
+  .contacto-informacion h1 {
     font-size: 70px;
     margin-top: 20px;
   }
-  .contacto-informacion h6 {
+  .contacto-informacion h2 {
     font-size: 30px;
     margin-top: 15px;
   }
@@ -254,11 +254,11 @@ header {
   }
 }
 
-.contacto-sumate h5 {
+.contacto-sumate h2 {
   font-size: 30px;
   margin-top: 20px;
 }
-.contacto-sumate h6 {
+.contacto-sumate h3 {
   font-size: 15px;
 }
 .contacto-sumate p {
@@ -272,10 +272,10 @@ header {
   border-radius: 20px 120px 20px 120px;
 }
 @media (min-width: 992px) {
-  .contacto-sumate h5 {
+  .contacto-sumate h2 {
     font-size: 50px;
   }
-  .contacto-sumate h6 {
+  .contacto-sumate h3 {
     font-size: 20px;
   }
   .contacto-sumate p {
@@ -285,11 +285,11 @@ header {
   }
 }
 @media (min-width: 1200px) {
-  .contacto-sumate h5 {
+  .contacto-sumate h2 {
     font-size: 70px;
     margin-top: 20px;
   }
-  .contacto-sumate h6 {
+  .contacto-sumate h3 {
     font-size: 30px;
     margin-top: 15px;
   }
@@ -327,29 +327,29 @@ header {
   margin-top: 10px;
   padding: 20px 0;
 }
-.formulario h5 {
+.formulario h2 {
   font-size: 30px;
   margin-top: 20px;
 }
-.formulario h6 {
+.formulario h3 {
   font-size: 15px;
   margin: 15px;
 }
 @media (min-width: 992px) {
-  .formulario h5 {
+  .formulario h2 {
     font-size: 50px;
     margin-top: 20px;
   }
-  .formulario h6 {
+  .formulario h3 {
     font-size: 25px;
   }
 }
 @media (min-width: 1200px) {
-  .formulario h5 {
+  .formulario h2 {
     font-size: 35px;
     margin-top: 20px;
   }
-  .formulario h6 {
+  .formulario h3 {
     font-size: 25px;
   }
 }
@@ -403,6 +403,9 @@ header {
 .informacion {
   margin: 20px 0;
   padding: 10px;
+}
+.informacion h1 {
+  display: none;
 }
 .informacion p {
   margin: 5px;
@@ -499,7 +502,10 @@ header {
   height: 400px;
   width: 2000px;
 }
-.carrousel .h5 {
+.carrousel h1 {
+  display: none;
+}
+.carrousel h2 {
   font-size: 30px;
   color: #8d4925;
 }
@@ -511,7 +517,7 @@ header {
   .carrousel img {
     height: 500px;
   }
-  .carrousel h5 {
+  .carrousel h2 {
     font-size: 40px;
   }
   .carrousel p {
@@ -522,7 +528,7 @@ header {
   .carrousel img {
     height: 600px;
   }
-  .carrousel h5 {
+  .carrousel h2 {
     font-size: 60px;
   }
   .carrousel p {
@@ -533,7 +539,7 @@ header {
   .carrousel img {
     height: 600px;
   }
-  .carrousel h5 {
+  .carrousel h2 {
     font-size: 60px;
   }
   .carrousel p {
@@ -544,7 +550,7 @@ header {
   .carrousel img {
     height: 800px;
   }
-  .carrousel h5 {
+  .carrousel h2 {
     font-size: 70px;
   }
   .carrousel p {
@@ -663,8 +669,11 @@ header {
 
 /*productos serum*/
 /*productos kit*/
-.carrousel-primario h5 {
-  font-size: 30px;
+.carrousel-primario h2 {
+  font-size: 40px;
+}
+.carrousel-primario h2 {
+  font-size: 20px;
 }
 .carrousel-primario p {
   font-size: 10px;
@@ -674,24 +683,33 @@ header {
   width: 450px;
 }
 @media (min-width: 768px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 50px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 20px;
   }
 }
 @media (min-width: 992px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 50px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 90px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 40px;
@@ -794,8 +812,11 @@ header {
 }
 
 /*cremas */
-.carrousel-primario h5 {
-  font-size: 30px;
+.carrousel-primario h2 {
+  font-size: 40px;
+}
+.carrousel-primario h2 {
+  font-size: 20px;
 }
 .carrousel-primario p {
   font-size: 10px;
@@ -805,24 +826,33 @@ header {
   width: 450px;
 }
 @media (min-width: 768px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 50px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 20px;
   }
 }
 @media (min-width: 992px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 50px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 90px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 40px;
@@ -925,8 +955,11 @@ header {
 }
 
 /*productos kit*/
-.carrousel-primario h5 {
-  font-size: 30px;
+.carrousel-primario h2 {
+  font-size: 40px;
+}
+.carrousel-primario h2 {
+  font-size: 20px;
 }
 .carrousel-primario p {
   font-size: 10px;
@@ -936,24 +969,33 @@ header {
   width: 450px;
 }
 @media (min-width: 768px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 50px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 20px;
   }
 }
 @media (min-width: 992px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 50px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .carrousel-primario h5 {
+  .carrousel-primario h1 {
     font-size: 90px;
+  }
+  .carrousel-primario h2 {
+    font-size: 30px;
   }
   .carrousel-primario p {
     font-size: 40px;

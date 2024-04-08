@@ -1,6 +1,10 @@
 @mixin carrusel-primario-responsive{
-    h5{
-        font-size: 30px;
+    h2{
+        font-size: 40px;
+       
+    }
+    h2{
+        font-size: 20px;
        
     }
     p{
@@ -12,16 +16,22 @@
         width: 450px;
     }
     @media (min-width: 768px) {
-        h5{
+        h1{
             font-size: 50px;
+        }
+        h2{
+            font-size: 30px;
         }
         p{
             font-size: 20px;
         }
     }
     @media (min-width: 992px) {
-        h5{
+        h1{
             font-size: 50px;
+        }
+        h2{
+            font-size: 30px;
         }
         p{
             font-size: 20px;
@@ -29,8 +39,11 @@
         
     }
     @media (min-width: 1200px) {
-        h5{
+        h1{
             font-size: 90px;
+        }
+        h2{
+            font-size: 30px;
         }
         p{
             font-size: 40px;
