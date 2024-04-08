@@ -1,0 +1,18 @@
+@mixin card-img-responsive{
+    width: auto;
+    height: 350px;
+    border-radius: 10px 80px 0 0; 
+    @media (min-width: 768px) {
+        width: auto;
+        height: 400px;
+    }
+    @media (min-width: 992px) {
+        width: auto;
+        height: 500px;
+    
+    }
+    @media (min-width: 1200px) {
+        width: auto;
+        height: 600px;
+    }
+}

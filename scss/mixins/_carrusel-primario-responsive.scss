@@ -1,0 +1,43 @@
+@mixin carrusel-primario-responsive{
+    h5{
+        font-size: 30px;
+       
+    }
+    p{
+        font-size: 10px;
+        
+    }
+    img{
+        height: 400px;
+        width: 450px;
+    }
+    @media (min-width: 768px) {
+        h5{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    @media (min-width: 992px) {
+        h5{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        
+    }
+    @media (min-width: 1200px) {
+        h5{
+            font-size: 90px;
+        }
+        p{
+            font-size: 40px;
+        }
+        img{
+            height: 800px;
+            width: 650px;
+        }
+    }
+}
