@@ -4,7 +4,7 @@ footer{
     background-repeat: no-repeat;
     h3{
         color: $color-texto;
-        font-size: 15px;
+        font-size: 20px;
         justify-content: left;
     }
     p{
@@ -21,13 +21,13 @@ footer{
     }
     @media (min-width: 768px) {
         h3{
-            font-size: 15px;
+            font-size: 20px;
         }
     
     }
     @media (min-width: 992px) {
         h3{
-            font-size: 20px;
+            font-size: 30px;
         }
     }
     @media (min-width: 1200px) {
