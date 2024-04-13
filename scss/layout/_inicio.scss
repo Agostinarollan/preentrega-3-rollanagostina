@@ -1,4 +1,6 @@
 
+@import '../mixins/card-primario-responsive';
+@import '../mixins/card-img-responsive';
 .carrousel-inicio{
     
     img{
@@ -47,6 +49,28 @@
         } 
     }
 }
+.card{
+    border-radius: 10px 80px 10px 80px;
+}
+.card-primario{
+    margin:20px;
+    width: auto;
+    align-items: center;  
+   @include card-primario-responsive;
+}
+
+.card-img-top{
+    object-fit: cover;
+    width: auto;
+    height: 350px;
+    border-radius: 10px 80px 0 0; 
+    @include card-img-responsive;
+}
+.btn{
+    background-color:$color-primario;
+    border-color:$color-secundario;
+}
+
 
 
 .inicio-detalles {
