@@ -49,12 +49,12 @@ footer {
 }
 footer h3 {
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   justify-content: left;
 }
 footer p {
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   padding-left: 5px;
 }
 footer li {
@@ -66,17 +66,17 @@ footer img {
 }
 @media (min-width: 768px) {
   footer h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @media (min-width: 992px) {
   footer h3 {
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
   footer p {
-    font-size: 10px;
+    font-size: 15px;
   }
   footer img {
     width: 20px;
