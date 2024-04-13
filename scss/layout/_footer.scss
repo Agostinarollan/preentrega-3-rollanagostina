@@ -10,6 +10,7 @@ footer{
     p{
         color: $color-texto;
         font-size: 15px;
+        font-weight: bold;
         padding-left: 5px;
     }
     li{
@@ -32,7 +33,7 @@ footer{
     }
     @media (min-width: 1200px) {
         p{
-            font-size: 15px;
+            font-size: 25px;
         }
         img{
             width: 20px;
